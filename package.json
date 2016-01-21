@@ -1,0 +1,41 @@
+{
+  "name": "lol-spells",
+  "version": "0.0.0",
+  "description": "Simplified, up-to-date, League of Legends summoner spells list.",
+  "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh)",
+  "license": "MIT",
+  "repository": "ngryman/lol-spells",
+  "main": "spells.json",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "spells.json"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "spec": "babel-node test.js | tap-spec",
+    "test": "npm run lint -s && npm run spec -s",
+    "watch": "onchange {,**/}*.js -- npm test -s",
+    "build": "babel-node -e \"require('./fetch')().then((spells) => require('fs').writeFileSync('spells.json', JSON.stringify(spells, 0, 2)))\"",
+    "prebuild": "ln -nsf ../lib node_modules/lol-spells",
+    "prepublish": "npm run build -s"
+  },
+  "keywords": [
+    "lol",
+    "league",
+    "legends",
+    "spells",
+    "api"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "blue-tape": "^0.1.10",
+    "eslint": "^0.24.0",
+    "eslint-config-ngryman": "^0.2.0",
+    "got": "^4.1.1",
+    "object-values": "^1.0.0",
+    "onchange": "^1.1.0",
+    "tap-spec": "^4.0.2"
+  }
+}
