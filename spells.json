@@ -6,7 +6,8 @@
     "tooltip": "Temporarily shields {{ f1 }} damage from your champion for 2 seconds.",
     "cooldown": 210,
     "summonerLevel": 4,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerBarrier.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerBarrier.png"
   },
   {
     "id": "boost",
@@ -15,7 +16,8 @@
     "tooltip": "Removes all disables and summoner spell debuffs affecting your champion and reduces the duration of disables by 65% for the next {{ f1 }} seconds.",
     "cooldown": 210,
     "summonerLevel": 6,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerBoost.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerBoost.png"
   },
   {
     "id": "clairvoyance",
@@ -24,7 +26,8 @@
     "tooltip": "Reveals a small area of the map for your team for {{ f1 }} seconds.",
     "cooldown": 55,
     "summonerLevel": 8,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerClairvoyance.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerClairvoyance.png"
   },
   {
     "id": "dot",
@@ -33,7 +36,8 @@
     "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br><br><i>(Grievous Wounds reduces self healing effects by 40%. This vision does not reveal stealthed enemies.)</i>",
     "cooldown": 180,
     "summonerLevel": 10,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerDot.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerDot.png"
   },
   {
     "id": "exhaust",
@@ -42,7 +46,8 @@
     "tooltip": "Exhausts target enemy champion, reducing their Movement Speed and Attack Speed by {{ f3 }}%, their Armor and Magic Resist by {{ f4 }}, and their damage dealt by {{ f2 }}% for 2.5 seconds.",
     "cooldown": 210,
     "summonerLevel": 4,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerExhaust.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerExhaust.png"
   },
   {
     "id": "flash",
@@ -51,16 +56,18 @@
     "tooltip": "Teleports your champion a short distance toward your cursor's location.",
     "cooldown": 300,
     "summonerLevel": 8,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerFlash.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerFlash.png"
   },
   {
     "id": "haste",
     "name": "Ghost",
-    "description": "Your champion can move through units and has 27% increased Movement Speed for 10 seconds",
+    "description": "Your champion can move through units and has 27% increased Movement Speed for 10 seconds.",
     "tooltip": "Your champion can move through units and has {{ f1 }}% increased Movement Speed for 10 seconds.",
     "cooldown": 210,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerHaste.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerHaste.png"
   },
   {
     "id": "heal",
@@ -69,16 +76,18 @@
     "tooltip": "Restores {{ f1 }} Health and grants 30% Movement Speed for 1 second to your champion and target allied champion. This healing is halved for units recently affected by Summoner Heal.<br><br><span class=\"colorFFFF00\">If this spell cannot find a target, it will cast on the most wounded allied champion in range.</span>",
     "cooldown": 240,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerHeal.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerHeal.png"
   },
   {
     "id": "mana",
     "name": "Clarity",
-    "description": "Restores 40% of your champion's maximum Mana. Also restores allies for 40% of their maximum Mana",
+    "description": "Restores 40% of your champion's maximum Mana. Also restores allies for 40% of their maximum Mana.",
     "tooltip": "Restores {{ f1 }}% maximum Mana to your Champion and nearby allies.",
     "cooldown": 180,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerMana.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerMana.png"
   },
   {
     "id": "odingarrison",
@@ -87,7 +96,8 @@
     "tooltip": "<span class=\"size16 colorFF9900\">Allied Turret:</span> Grants massive regeneration for 8 seconds.<br><br><span class=\"size16 colorFF9900\">Enemy Turret:</span> Reduces damage dealt by 80% for 8 seconds.",
     "cooldown": 210,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerOdinGarrison.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerOdinGarrison.png"
   },
   {
     "id": "pororecall",
@@ -96,7 +106,8 @@
     "tooltip": "<span class=\"colorFFE076\">Passive:</span> Hitting an enemy champion with a Poro gives your team a Poro Mark. Upon reaching 10 Poro Marks, your team summons the Poro King to fight alongside them. While the Poro King is active, no Poro Marks can be scored by either team.<br><br><span class=\"colorFFE076\">Active:</span> Quickly dash to King Poro's side. Can only be cast while the Poro King is summoned for your team. <br><br><i><span class=\"colorFDD017\">''Poros tug the heartstrings. The rest of you just comes along for the ride.''</span></i>",
     "cooldown": 10,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerPoroRecall.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerPoroRecall.png"
   },
   {
     "id": "porothrow",
@@ -105,7 +116,8 @@
     "tooltip": "Toss a Poro a long distance, dealing {{ f2 }} true damage to the first enemy unit hit. This ability can be recast for 3 seconds if it hits an enemy to dash to the target hit. Dashing to the target will reduce the cooldown of Poro Toss by 5 seconds.<br><br>Poros are not blocked by spell shields or wind walls because they are animals, not spells!<br><br><i><span class=\"colorFDD017\">''Poros are a model for Runeterran aerodynamics.''</span></i>",
     "cooldown": 20,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerPoroThrow.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerPoroThrow.png"
   },
   {
     "id": "smite",
@@ -115,7 +127,7 @@
     "cooldown": 90,
     "summonerLevel": 10,
     "maxammo": "2",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerSmite.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerSmite.png"
   },
   {
     "id": "snowball",
@@ -124,7 +136,8 @@
     "tooltip": "Throw a snowball a long distance, dealing {{ f1 }} true damage to the first enemy unit hit. If it hits an enemy, this ability can be recast for {{ f2 }} seconds to Dash to the tagged unit, dealing an additional {{ f5 }} true damage. Dashing to the target will reduce the cooldown of Mark by {{ f3 }}%.<br><br><span class=\"colorFFFF00\">Mark projectiles are not stopped by spell shields or projectile mitigation.</span>",
     "cooldown": 40,
     "summonerLevel": 1,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerSnowball.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerSnowball.png"
   },
   {
     "id": "teleport",
@@ -133,6 +146,7 @@
     "tooltip": "After channeling for {{ f1 }} seconds, your champion teleports to target allied structure, minion, or ward.<br><br>You may reactivate Teleport to cancel it, placing it on a {{ f3 }} second cooldown.",
     "cooldown": 300,
     "summonerLevel": 6,
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.1.1/img/spell/SummonerTeleport.png"
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerTeleport.png"
   }
 ]
