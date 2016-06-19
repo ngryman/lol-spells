@@ -7,7 +7,7 @@
     "cooldown": 210,
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerBarrier.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerBarrier.png"
   },
   {
     "id": "boost",
@@ -17,27 +17,27 @@
     "cooldown": 210,
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerBoost.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerBoost.png"
   },
   {
     "id": "clairvoyance",
     "name": "Clairvoyance",
     "description": "Reveals a small area of the map for your team for 5 seconds.",
     "tooltip": "Reveals a small area of the map for your team for {{ f1 }} seconds.",
-    "cooldown": 55,
+    "cooldown": 240,
     "summonerLevel": 8,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerClairvoyance.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerClairvoyance.png"
   },
   {
     "id": "dot",
     "name": "Ignite",
     "description": "Ignites target enemy champion, dealing 70-410 true damage (depending on champion level) over 5 seconds, grants you vision of the target, and reduces healing effects on them for the duration.",
-    "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br><br><i>(Grievous Wounds reduces self healing effects by 40%. This vision does not reveal stealthed enemies.)</i>",
+    "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br><br><i>(Grievous Wounds reduces healing effects by 40%. This vision does not reveal stealthed enemies.)</i>",
     "cooldown": 180,
     "summonerLevel": 10,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerDot.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerDot.png"
   },
   {
     "id": "exhaust",
@@ -47,7 +47,7 @@
     "cooldown": 210,
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerExhaust.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerExhaust.png"
   },
   {
     "id": "flash",
@@ -57,17 +57,17 @@
     "cooldown": 300,
     "summonerLevel": 8,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerFlash.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerFlash.png"
   },
   {
     "id": "haste",
     "name": "Ghost",
-    "description": "Your champion can move through units and has 27% increased Movement Speed for 10 seconds.",
+    "description": "Your champion can move through units and has 28-45% (depending on champion level) increased Movement Speed for 10 seconds.",
     "tooltip": "Your champion can move through units and has {{ f1 }}% increased Movement Speed for 10 seconds.",
     "cooldown": 210,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerHaste.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerHaste.png"
   },
   {
     "id": "heal",
@@ -77,27 +77,17 @@
     "cooldown": 240,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerHeal.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerHeal.png"
   },
   {
     "id": "mana",
     "name": "Clarity",
-    "description": "Restores 40% of your champion's maximum Mana. Also restores allies for 40% of their maximum Mana.",
-    "tooltip": "Restores {{ f1 }}% maximum Mana to your Champion and nearby allies.",
-    "cooldown": 180,
+    "description": "Restores 50% of your champion's maximum Mana. Also restores allies for 25% of their maximum Mana.",
+    "tooltip": "Restores {{ f1 }}% maximum Mana to your Champion and {{ f2 }}% to nearby allies.",
+    "cooldown": 240,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerMana.png"
-  },
-  {
-    "id": "odingarrison",
-    "name": "Garrison",
-    "description": "Allied Turret: Grants massive regeneration for 8 seconds. Enemy Turret: Reduces damage dealt by 80% for 8 seconds.",
-    "tooltip": "<span class=\"size16 colorFF9900\">Allied Turret:</span> Grants massive regeneration for 8 seconds.<br><br><span class=\"size16 colorFF9900\">Enemy Turret:</span> Reduces damage dealt by 80% for 8 seconds.",
-    "cooldown": 210,
-    "summonerLevel": 1,
-    "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerOdinGarrison.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerMana.png"
   },
   {
     "id": "pororecall",
@@ -107,7 +97,7 @@
     "cooldown": 10,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerPoroRecall.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerPoroRecall.png"
   },
   {
     "id": "porothrow",
@@ -117,7 +107,7 @@
     "cooldown": 20,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerPoroThrow.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerPoroThrow.png"
   },
   {
     "id": "smite",
@@ -127,17 +117,17 @@
     "cooldown": 90,
     "summonerLevel": 10,
     "maxammo": "2",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerSmite.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerSmite.png"
   },
   {
     "id": "snowball",
     "name": "Mark",
     "description": "Throw a snowball in a straight line at your enemies. If it hits an enemy, they become marked and your champion can quickly travel to the marked target as a follow up.",
     "tooltip": "Throw a snowball a long distance, dealing {{ f1 }} true damage to the first enemy unit hit. If it hits an enemy, this ability can be recast for {{ f2 }} seconds to Dash to the tagged unit, dealing an additional {{ f5 }} true damage. Dashing to the target will reduce the cooldown of Mark by {{ f3 }}%.<br><br><span class=\"colorFFFF00\">Mark projectiles are not stopped by spell shields or projectile mitigation.</span>",
-    "cooldown": 40,
+    "cooldown": 80,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerSnowball.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerSnowball.png"
   },
   {
     "id": "teleport",
@@ -147,6 +137,6 @@
     "cooldown": 300,
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.4.2/img/spell/SummonerTeleport.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerTeleport.png"
   }
 ]
