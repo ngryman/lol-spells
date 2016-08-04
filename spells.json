@@ -7,7 +7,12 @@
     "cooldown": 210,
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerBarrier.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerBarrier.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 0,
+      "y": 0
+    }
   },
   {
     "id": "boost",
@@ -17,7 +22,12 @@
     "cooldown": 210,
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerBoost.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerBoost.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 48,
+      "y": 0
+    }
   },
   {
     "id": "clairvoyance",
@@ -27,7 +37,12 @@
     "cooldown": 240,
     "summonerLevel": 8,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerClairvoyance.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerClairvoyance.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 96,
+      "y": 0
+    }
   },
   {
     "id": "dot",
@@ -37,7 +52,12 @@
     "cooldown": 180,
     "summonerLevel": 10,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerDot.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerDot.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 144,
+      "y": 0
+    }
   },
   {
     "id": "exhaust",
@@ -47,7 +67,12 @@
     "cooldown": 210,
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerExhaust.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerExhaust.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 192,
+      "y": 0
+    }
   },
   {
     "id": "flash",
@@ -57,7 +82,12 @@
     "cooldown": 300,
     "summonerLevel": 8,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerFlash.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerFlash.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 240,
+      "y": 0
+    }
   },
   {
     "id": "haste",
@@ -67,7 +97,12 @@
     "cooldown": 210,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerHaste.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerHaste.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 288,
+      "y": 0
+    }
   },
   {
     "id": "heal",
@@ -77,7 +112,12 @@
     "cooldown": 240,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerHeal.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerHeal.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 336,
+      "y": 0
+    }
   },
   {
     "id": "mana",
@@ -87,7 +127,12 @@
     "cooldown": 240,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerMana.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerMana.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 384,
+      "y": 0
+    }
   },
   {
     "id": "pororecall",
@@ -97,7 +142,12 @@
     "cooldown": 10,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerPoroRecall.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerPoroRecall.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 432,
+      "y": 0
+    }
   },
   {
     "id": "porothrow",
@@ -107,7 +157,12 @@
     "cooldown": 20,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerPoroThrow.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerPoroThrow.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 0,
+      "y": 48
+    }
   },
   {
     "id": "smite",
@@ -117,7 +172,12 @@
     "cooldown": 90,
     "summonerLevel": 10,
     "maxammo": "2",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerSmite.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerSmite.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 48,
+      "y": 48
+    }
   },
   {
     "id": "snowball",
@@ -127,16 +187,26 @@
     "cooldown": 80,
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerSnowball.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerSnowball.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 96,
+      "y": 48
+    }
   },
   {
     "id": "teleport",
     "name": "Teleport",
-    "description": "After channeling for 3.5 seconds, teleports your champion to target allied structure, minion, or ward.",
+    "description": "After channeling for 4.5 seconds, teleports your champion to target allied structure, minion, or ward.",
     "tooltip": "After channeling for {{ f1 }} seconds, your champion teleports to target allied structure, minion, or ward.<br><br>You may reactivate Teleport to cancel it, placing it on a {{ f3 }} second cooldown.",
     "cooldown": 300,
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/6.12.1/img/spell/SummonerTeleport.png"
+    "icon": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerTeleport.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/6.15.1/img/sprite/spell0.png",
+      "x": 144,
+      "y": 48
+    }
   }
 ]
