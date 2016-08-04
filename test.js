@@ -21,6 +21,17 @@ test('Transmutes "image" object into an valid URL', (t) => res
 })
 .then((spell) => got(spell.icon)))
 
+test('Transmutes "image" object into a sprite object', (t) => res
+.then((spells) => {
+  let spell = spells[0]
+  t.assert(!spell.image, 'image property is gone')
+  t.equal(typeof spell.sprite, 'object', 'sprite property is an object')
+  t.equal(typeof spell.sprite.x, 'number', 'sprite.x property contains x-coordinate')
+  t.equal(typeof spell.sprite.y, 'number', 'sprite.y property contains y-coordinate')
+  return spell
+})
+.then((spell) => got(spell.sprite.url)))
+
 test('Simplifies cooldowns', (t) => res.then((spells) => {
   let spell = spells[0]
   t.assert('number' === typeof spell.cooldown, 'colldown is a number')
