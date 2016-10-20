@@ -45,7 +45,6 @@ test('Keeps a set of properties', (t) => res.then((spells) => {
   t.assert(!spell.costType, 'costType property is gone')
   t.assert(!spell.effect, 'effect property is gone')
   t.assert(!spell.effectBurn, 'effectBurn property is gone')
-  t.assert(!spell.key, 'key property is gone')
   t.assert(!spell.leveltip, 'leveltip property is gone')
   t.assert(!spell.maxrank, 'maxrank property is gone')
   t.assert(!spell.modes, 'modes property is gone')
