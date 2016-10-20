@@ -2,43 +2,47 @@ import fetch from './fetch'
 import got from 'got'
 import test from 'blue-tape'
 
-const res = fetch()
+const req = fetch()
 
-test('Fetches spells list from League of Legends API', (t) => res.then((spells) => {
+test('Fetches spells list from League of Legends API', async t => {
+  const spells = await req
   t.assert(Array.isArray(spells), 'spells is an array')
-}))
+})
 
-test('Adds "id"', (t) => res.then((spells) => {
+test('Adds "id"', async t => {
+  const spells = await req
   let spell = spells[0]
   t.assert(/[a-z ]/.test(spell.id), 'id property is a lower cased string')
-}))
+})
 
-test('Transmutes "image" object into an valid URL', (t) => res
-.then((spells) => {
+test('Transmutes "image" object into an valid URL', async t => {
+  const spells = await req
   let spell = spells[0]
   t.assert(!spell.image, 'image property is gone')
-  return spell
+  await got(spell.icon)
 })
-.then((spell) => got(spell.icon)))
 
-test('Transmutes "image" object into a sprite object', (t) => res
-.then((spells) => {
+test('Transmutes "image" object into a sprite object', async t => {
+  const spells = await req
   let spell = spells[0]
   t.assert(!spell.image, 'image property is gone')
   t.equal(typeof spell.sprite, 'object', 'sprite property is an object')
-  t.equal(typeof spell.sprite.x, 'number', 'sprite.x property contains x-coordinate')
-  t.equal(typeof spell.sprite.y, 'number', 'sprite.y property contains y-coordinate')
-  return spell
+  t.equal(typeof spell.sprite.x,
+    'number', 'sprite.x property contains x-coordinate')
+  t.equal(typeof spell.sprite.y,
+    'number', 'sprite.y property contains y-coordinate')
+  await got(spell.sprite.url)
 })
-.then((spell) => got(spell.sprite.url)))
 
-test('Simplifies cooldowns', (t) => res.then((spells) => {
+test('Simplifies cooldowns', async t => {
+  const spells = await req
   let spell = spells[0]
   t.assert('number' === typeof spell.cooldown, 'colldown is a number')
   t.assert(!spell.cooldownBurn, 'cooldownBurn property is gone')
-}))
+})
 
-test('Keeps a set of properties', (t) => res.then((spells) => {
+test('Keeps a set of properties', async t => {
+  const spells = await req
   let spell = spells[0]
   t.assert(!spell.cost, 'cost property is gone')
   t.assert(!spell.costBurn, 'costBurn property is gone')
@@ -52,4 +56,4 @@ test('Keeps a set of properties', (t) => res.then((spells) => {
   t.assert(!spell.rangeBurn, 'rangeBurn property is gone')
   t.assert(!spell.resource, 'resource property is gone')
   t.assert(!spell.vars, 'vars property is gone')
-}))
+})
