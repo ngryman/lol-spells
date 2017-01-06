@@ -33,7 +33,7 @@
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-es2017": "^6.16.0",
     "blue-tape": "^1.0.0",
-    "eslint": "^3.8.1",
+    "eslint": "^3.13.0",
     "eslint-config-ngryman": "^1.7.0",
     "got": "^6.5.0",
     "object-values": "^1.0.0",
