@@ -8,9 +8,9 @@
     "key": "21",
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerBarrier.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerBarrier.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
       "x": 0,
       "y": 0
     }
@@ -24,9 +24,9 @@
     "key": "1",
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerBoost.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerBoost.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
       "x": 48,
       "y": 0
     }
@@ -35,15 +35,15 @@
     "id": "dot",
     "name": "Ignite",
     "description": "Ignites target enemy champion, dealing 70-410 true damage (depending on champion level) over 5 seconds, grants you vision of the target, and reduces healing effects on them for the duration.",
-    "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br><br><i>(Grievous Wounds reduces healing effects by 40%. This vision does not reveal stealthed enemies.)</i>",
+    "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br><br><rules>(Grievous Wounds reduces healing effects by 40%. This vision does not reveal stealthed enemies.)</rules>",
     "cooldown": 210,
     "key": "14",
     "summonerLevel": 10,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerDot.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerDot.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 144,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 96,
       "y": 0
     }
   },
@@ -56,10 +56,10 @@
     "key": "3",
     "summonerLevel": 4,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerExhaust.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerExhaust.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 192,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 144,
       "y": 0
     }
   },
@@ -72,26 +72,26 @@
     "key": "4",
     "summonerLevel": 8,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerFlash.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerFlash.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 240,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 192,
       "y": 0
     }
   },
   {
     "id": "haste",
     "name": "Ghost",
-    "description": "Your champion can move through units and has 28-45% (depending on champion level) increased Movement Speed for 10 seconds.",
-    "tooltip": "Your champion can move through units and has {{ f1 }}% increased Movement Speed for 10 seconds.",
+    "description": "Your champion can move through units for 10 seconds, gaining increased Movement Speed. Grants a maximum of 28-45% (depending on champion level) Movement Speed after accelerating for 2 seconds.",
+    "tooltip": "Your champion can move through units for 10 seconds, gaining increased Movement Speed. Grants a maximum of {{ f1 }}% Movement Speed after accelerating for 2 seconds.",
     "cooldown": 180,
     "key": "6",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerHaste.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerHaste.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 288,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 240,
       "y": 0
     }
   },
@@ -104,10 +104,10 @@
     "key": "7",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerHeal.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerHeal.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 336,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 288,
       "y": 0
     }
   },
@@ -120,10 +120,10 @@
     "key": "13",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerMana.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerMana.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 384,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 336,
       "y": 0
     }
   },
@@ -136,10 +136,10 @@
     "key": "30",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerPoroRecall.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerPoroRecall.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 432,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 384,
       "y": 0
     }
   },
@@ -152,10 +152,42 @@
     "key": "31",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerPoroThrow.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerPoroThrow.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 432,
+      "y": 0
+    }
+  },
+  {
+    "id": "siegechampselect1",
+    "name": "Nexus Siege: Siege Weapon Slot",
+    "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!",
+    "tooltip": "",
+    "cooldown": 0,
+    "key": "33",
+    "summonerLevel": 1,
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerSiegeChampSelect1.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
       "x": 0,
+      "y": 48
+    }
+  },
+  {
+    "id": "siegechampselect2",
+    "name": "Nexus Siege: Siege Weapon Slot",
+    "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!",
+    "tooltip": "",
+    "cooldown": 0,
+    "key": "34",
+    "summonerLevel": 1,
+    "maxammo": "-1",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerSiegeChampSelect2.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 48,
       "y": 48
     }
   },
@@ -168,10 +200,10 @@
     "key": "11",
     "summonerLevel": 10,
     "maxammo": "2",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerSmite.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerSmite.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 48,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 96,
       "y": 48
     }
   },
@@ -184,10 +216,10 @@
     "key": "32",
     "summonerLevel": 1,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerSnowball.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerSnowball.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 96,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 144,
       "y": 48
     }
   },
@@ -200,10 +232,10 @@
     "key": "12",
     "summonerLevel": 6,
     "maxammo": "-1",
-    "icon": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/spell/SummonerTeleport.png",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/spell/SummonerTeleport.png",
     "sprite": {
-      "url": "http://ddragon.leagueoflegends.com/cdn/7.1.1/img/sprite/spell0.png",
-      "x": 144,
+      "url": "http://ddragon.leagueoflegends.com/cdn/7.4.1/img/sprite/spell0.png",
+      "x": 192,
       "y": 48
     }
   }
