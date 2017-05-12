@@ -1,7 +1,5 @@
 # lol-spells [![npm][npm-image]][npm-url] [![travis][travis-image]][travis-url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/lol-spells.svg)](https://greenkeeper.io/)
-
 [npm-image]: https://img.shields.io/npm/v/lol-spells.svg?style=flat
 [npm-url]: https://npmjs.org/package/lol-spells
 [travis-image]: https://img.shields.io/travis/ngryman/lol-spells.svg?style=flat
